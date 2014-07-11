@@ -1,0 +1,24 @@
+﻿  main.c
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(26): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(82): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(119): warning C4047: 'function' : 'DWORD' differs in levels of indirection from 'void *'
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(119): warning C4024: 'CryptAcquireContextA' : different types for formal and actual parameter 5
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(127): warning C4047: 'function' : 'HCRYPTKEY' differs in levels of indirection from 'void *'
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(127): warning C4024: 'CryptImportKey' : different types for formal and actual parameter 4
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(127): warning C4047: 'function' : 'DWORD' differs in levels of indirection from 'void *'
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(127): warning C4024: 'CryptImportKey' : different types for formal and actual parameter 5
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(146): warning C4047: 'function' : 'DWORD' differs in levels of indirection from 'void *'
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(146): warning C4024: 'CryptDuplicateKey' : different types for formal and actual parameter 3
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(152): warning C4047: 'function' : 'HCRYPTHASH' differs in levels of indirection from 'void *'
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(152): warning C4024: 'CryptEncrypt' : different types for formal and actual parameter 2
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(152): warning C4047: 'function' : 'DWORD' differs in levels of indirection from 'void *'
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(152): warning C4024: 'CryptEncrypt' : different types for formal and actual parameter 4
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(170): warning C4047: 'function' : 'HCRYPTHASH' differs in levels of indirection from 'void *'
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(170): warning C4024: 'CryptEncrypt' : different types for formal and actual parameter 2
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(170): warning C4047: 'function' : 'DWORD' differs in levels of indirection from 'void *'
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(170): warning C4024: 'CryptEncrypt' : different types for formal and actual parameter 4
+c:\users\test\desktop\github\imgutil\hiddencreator\main.c(223): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+  hiddenCreator.vcxproj -> C:\Users\test\Desktop\github\imgutil\Debug\hiddenCreator.exe

@@ -1,0 +1,45 @@
+﻿cl : Command line warning D9025: overriding '/sdl' with '/GS-'
+  crypt.c
+crypt.c(14): warning C4047: 'function' : 'DWORD' differs in levels of indirection from 'void *'
+crypt.c(14): warning C4024: 'CryptAcquireContextA' : different types for formal and actual parameter 5
+crypt.c(20): warning C4047: 'function' : 'HCRYPTKEY' differs in levels of indirection from 'void *'
+crypt.c(20): warning C4024: 'CryptImportKey' : different types for formal and actual parameter 4
+crypt.c(20): warning C4047: 'function' : 'DWORD' differs in levels of indirection from 'void *'
+crypt.c(20): warning C4024: 'CryptImportKey' : different types for formal and actual parameter 5
+crypt.c(40): warning C4047: 'function' : 'DWORD' differs in levels of indirection from 'void *'
+crypt.c(40): warning C4024: 'CryptDuplicateKey' : different types for formal and actual parameter 3
+crypt.c(46): warning C4047: 'function' : 'HCRYPTHASH' differs in levels of indirection from 'void *'
+crypt.c(46): warning C4024: 'CryptDecrypt' : different types for formal and actual parameter 2
+crypt.c(46): warning C4047: 'function' : 'DWORD' differs in levels of indirection from 'void *'
+crypt.c(46): warning C4024: 'CryptDecrypt' : different types for formal and actual parameter 4
+crypt.c(64): warning C4047: 'function' : 'HCRYPTHASH' differs in levels of indirection from 'void *'
+crypt.c(64): warning C4024: 'CryptDecrypt' : different types for formal and actual parameter 2
+crypt.c(64): warning C4047: 'function' : 'DWORD' differs in levels of indirection from 'void *'
+crypt.c(64): warning C4024: 'CryptDecrypt' : different types for formal and actual parameter 4
+  download.c
+download.c(22): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+download.c(23): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+download.c(24): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+download.c(25): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+download.c(26): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+download.c(27): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+download.c(28): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+download.c(35): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+download.c(113): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+download.c(115): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+download.c(117): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+download.c(119): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+download.c(144): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+download.c(144): warning C4024: 'send' : different types for formal and actual parameter 4
+  loader.c
+loader.c(17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+loader.c(210): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+loader.c(211): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(182) : see declaration of 'strncat'
+loader.c(77): warning C4101: 'temp' : unreferenced local variable
+loader.c(75): warning C4101: 'buf' : unreferenced local variable
+  Generating code
+  Finished generating code
+  loader.vcxproj -> C:\Users\test\Desktop\github\imgutil\Release\loader.exe
